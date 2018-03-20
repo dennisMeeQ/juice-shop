@@ -1,0 +1,9 @@
+# Use postgres/password user/password credentials
+version: '3.1'
+
+services:
+  dvwa:
+    image: bkimminich/juice-shop
+    ports:
+      - 8084:3000
+
